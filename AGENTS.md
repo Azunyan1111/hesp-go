@@ -1,13 +1,13 @@
 # AGENTS.md
 
 # 最も優先される絶対的な仕様書
-[draft-theo-hesp-06.txt](hesp-docs/draft-theo-hesp-06.txt) 
+[draft-theo-hesp-06.txt](draft-theo-hesp-06.txt)
 最優先される仕様書であり、もっとも遵守するべき物。
 
 ## 基本方針
 
 - 実装前に、同一パッケージ内の既存実装とテストを1つ以上、全行読む。
-- 既存実装が存在しない場合は、`hesp-docs/draft-theo-hesp-06.txt` の該当箇所を読む。
+- 既存実装が存在しない場合は、`draft-theo-hesp-06.txt` の該当箇所を読む。
 - 回答、設計判断、実装判断には、根拠となる仕様または既存コードを必ず引用する。
 - 仕様の MUST / MUST NOT / SHALL / REQUIRED は、原則としてテストまたは検証コードに落とす。
 - SHOULD / MAY は、強制仕様と区別して扱う。

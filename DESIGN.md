@@ -5,7 +5,7 @@ LLM が実装する場合も、ここに書かれた分割、命名、TDD 順序
 
 ## 根拠
 
-仕様書は `hesp-docs/draft-theo-hesp-06.txt` を正とします。
+仕様書は `draft-theo-hesp-06.txt` を正とします。
 
 - HESP は Track ごとに Initialization Stream と Continuation Stream を持ちます。Initialization Packet は個別にアドレス可能で、Continuation Segment の index と byte offset を含みます。根拠: `draft-theo-hesp-06.txt:231-263`
 - HESP の object model は Track、Switching Set、Selection Set、Presentation、Manifest で構成されます。根拠: `draft-theo-hesp-06.txt:285-327`
